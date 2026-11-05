@@ -66,7 +66,7 @@ st.title("Titanic Survival Predictor")
 st.write("Enter a passenger's details and see if our random forest thinks they'd survive.")
 
 with st.form("passenger_form"):
-    st.text_input("Name", placeholder="e.g. Benjamin Ogbonna", key="name")
+    st.text_input("Name", placeholder="e.g. Rahmat Folorunsho", key="name")
     st.radio(
         "Passenger Class (1 = First)", [1, 2, 3],
         horizontal=True, key="pclass",
